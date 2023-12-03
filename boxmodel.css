@@ -1,0 +1,14 @@
+h1{
+    height: 200px;
+    width: 300px;
+    border: 50px solid red;
+    /* padding: 250px;(all the sides) */
+    /* padding: 50px 50px; */
+    /* padding: 50px 50px 50px; */
+    padding:50px 50px 50px 50px;
+    /* margin: 150px; */
+    /* margin: 20px 20px; */
+    /* margin: 20px 20px 20px; */
+    margin: 20px 20px 20px 20px;
+
+}

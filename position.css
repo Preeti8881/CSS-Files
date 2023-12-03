@@ -1,0 +1,57 @@
+div{
+    height: 780px;
+    width: 70%;
+    background-color:black;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+
+
+
+
+
+
+nav{
+    height: 150px;
+    width: 150px;
+    background-color:red;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    
+    
+}
+
+
+
+article{
+    height: 150px;
+    width: 150px;
+    background-color:deeppink;
+    position: fixed;
+    top: 200px;
+
+
+}
+section{
+    height: 150px;
+    width: 150px;
+    background-color: blue;
+    position: sticky;
+    top: 50px;
+}
+
+aside{
+    height: 150px;
+    width: 150px;
+    background-color:gold;
+
+}
+
+
+
+div{
+    
+}

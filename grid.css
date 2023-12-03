@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+ }
+ #grid-container{
+    height: 600px;
+    width: 80vw;
+    background-color: aqua;
+    display: grid;
+    /* grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 200px 200px 200px;
+    grid-template-columns:repeat(6,1fr);
+    grid-template-columns:20% 20% 40% auto;
+    row-gap: 1opx;
+    column-gap: 50px; */
+    /* grid-template-columns: 20vw 20vw 30% auto; */
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 100px auto 100px auto;
+    gap: 20px;
+    grid-template-areas: "header header header"
+                         "sdbr section section"
+                         "sdbr section section"
+                         "ftr ftr ftr"
+    
+
+
+}
+
+.grid-items{
+    /* height: 100px;
+    width: 100px; */
+    background-color: red;
+    border: 5px double black;
+    
+}
+#item4{
+grid-area:ftr;
+}
+#item1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+#item6{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    background-image: url("/CSS/Images/Micky.jpg");
+    background-repeat: no-repeat;
+    background-size: 25vw 33vh;
+}
+#item4{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    
+}
+#item7{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 10;
+}

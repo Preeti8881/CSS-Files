@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    background-color: black;
+}
+#flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap-reverse;
+    background-image: url("https://media.istockphoto.com/id/512185437/photo/indias-flag-close-up.jpg?s=2048x2048&w=is&k=20&c=E1gW4ayvH2yONnONarfCkJibTKw7aiKiKi5sck20t9s=");
+    background-repeat: no-repeat;
+    background-size: 600px 500px;
+    height: 600px;
+    width: 500px;
+    background-color: yellow;
+    border: 5px double blue;
+}
+.flex items{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    border: 4px solid red;
+    color: darkblue;
+}
+#items1{
+    height: 100px;
+    width: 100px;
+    background-image: url("https://media.istockphoto.com/id/512185437/photo/indias-flag-close-up.jpg?s=2048x2048&w=is&k=20&c=E1gW4ayvH2yONnONarfCkJibTKw7aiKiKi5sck20t9s=");
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    flex-grow: 1;
+    flex-shrink: 8;
+    flex-basis: 200px;
+    align-self: center;
+    order: 5;
+}
+#items2{
+    height: 100px;
+    width: 100px;
+    background-image: url("https://media.istockphoto.com/id/512185437/photo/indias-flag-close-up.jpg?s=2048x2048&w=is&k=20&c=E1gW4ayvH2yONnONarfCkJibTKw7aiKiKi5sck20t9s=");
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    flex-grow: 1;
+    align-self: flex-end;
+    order: 3;
+}
+
+#items3{
+    height: 100px;
+    width: 100px;
+    background-image: url("https://media.istockphoto.com/id/512185437/photo/indias-flag-close-up.jpg?s=2048x2048&w=is&k=20&c=E1gW4ayvH2yONnONarfCkJibTKw7aiKiKi5sck20t9s=");
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    flex-grow: 2;
+    flex-basis: 200px;
+    order: 1;
+}
+
+#items4{
+    height: 100px;
+    width: 100px;
+    background-image: url("https://media.istockphoto.com/id/512185437/photo/indias-flag-close-up.jpg?s=2048x2048&w=is&k=20&c=E1gW4ayvH2yONnONarfCkJibTKw7aiKiKi5sck20t9s=");
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    flex-grow: 3;
+    order: 2;
+}
+
+#items5{
+    height: 100px;
+    width: 100px;
+    background-image: url("https://media.istockphoto.com/id/512185437/photo/indias-flag-close-up.jpg?s=2048x2048&w=is&k=20&c=E1gW4ayvH2yONnONarfCkJibTKw7aiKiKi5sck20t9s=");
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    flex-grow: 1;
+    order: 5;
+}
+

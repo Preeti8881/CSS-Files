@@ -1,0 +1,32 @@
+/* combinator selector */
+div h1{
+    color: blue;
+}
+
+/* child selector */
+div>h1{
+    color: blue;
+}
+
+/* adjacent sibling collector */
+div+p{
+    background-color: chocolate;
+    color: aliceblue;
+}
+    
+#abc{
+    background-color: aqua;
+    height: 200px;
+    width: 300px;
+
+}
+
+#xyz{
+    background-color: burlywood;
+    height: 200px;
+    width: 300px;
+}
+
+
+    
+
